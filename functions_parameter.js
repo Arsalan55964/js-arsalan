@@ -69,6 +69,9 @@ function addTwoNumbers(number1,number2){
 
     //console.log(returnSecondvalue(myNewArray));
     console.log(returnSecondvalue([200,400,100,600]))
+
+    console.log(username);
      
    
      
+                                         
