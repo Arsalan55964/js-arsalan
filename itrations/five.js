@@ -1,27 +1,27 @@
 const coding = ["js", "ruby", "python", "java", "cpp"]
 
-// coding.forEach(  function (val) {
-//   console.log(val);
+coding.forEach(  function (val) {
+  console.log(val);
   
-// } )
+} )
 
-// coding.forEach( (item ) => {
-//     console.log(item);
+coding.forEach( (item ) => {
+    console.log(item);
     
 
-// } )
+} )
 
-// function printMe (item) {
-//     console.log(item);
+function printMe (item) {
+    console.log(item);
     
-// }
-// coding.forEach(printMe)
+}
+coding.forEach(printMe)
 
 
-// coding.forEach((item, index ,arr) => {
-//     console.log(item, index ,arr);
+coding.forEach((item, index ,arr) => {
+    console.log(item, index ,arr);
     
-// })
+})
 
 const myCoing = [
     {
@@ -43,4 +43,4 @@ const myCoing = [
 myCoing.forEach( (item) => {
     console.log(item.languageName);
     
-} )
+} ) 

@@ -2,8 +2,8 @@
 
 const tinderUser = {}
 
-tinderUser.id = "123abc"
-tinderUser.name = "sammy"
+tinderUser.id = "123jerry"
+tinderUser.name = "tom"
 tinderUser.isloggedIn = false
 
 
@@ -15,11 +15,11 @@ tinderUser.isloggedIn = false
 //console.log(tinderUser);
 
  const regularUser = {
-   email: "some@gmail.com",
+   email: "umer@gmail.com",
      fullname: {
          userfullname: {
-            firstname: "arsalan",
-            lastname: "umar"
+            firstname: "nassem",
+            lastname: "shaheen"
          }
  
         }
@@ -97,4 +97,30 @@ const navbar = () => {
     {}
 ]
 
- 
+ const courseArray = [
+    {
+        coursename: "js in hindi",
+        price: "999",
+        courseInstructor: "hitesh"
+    },
+    {
+        coursename: "python in hindi",
+        price: "799",
+        courseInstructor: "hitesh"
+    },
+    {
+        coursename: "c++ in hindi",
+        price: "499",
+        courseInstructor: "hitesh"
+    }
+ ]
+
+//  console.log(courseArray[1].coursename);
+
+//  const [course1, course2] = courseArray
+//  console.log(course2.coursename);
+
+ const [{coursename}, , {price}] = courseArray
+ console.log(coursename, price);
+//  console.log(course1);
+//  console.log(course2);

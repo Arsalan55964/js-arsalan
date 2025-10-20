@@ -68,6 +68,18 @@ const promiseFive =  new Promise(function(resolve,reject){
         }
     }, 1000)
 });
+// async function getAllUsers(){
+//     try {
+//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
+
+//         const data = await response.json()
+//         console.log(data);
+//     } catch (error) {
+//         console.log("E: ", error);
+//     }
+// }
+
+//getAllUsers()
 
 async function  consumepromoiseFive(){
     try{
@@ -100,4 +112,23 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 
 // promise.all
 // yes this is also available, kuch reading aap b kro.
+
+
+
+
+
+const promisethree = new Promise(function(resolve,reject){
+    setTimeout(function() {
+        console.log('async task is complete');
+        resolve()
+        
+
+    }, 1000)
+
+})
+
+promisethree.then(function(){
+    console.log('promise is consumed');
+    
+})
     

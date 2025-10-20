@@ -42,3 +42,10 @@ console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
 
 
+const alluser = () =>{
+    for (const key in JsUser) {
+        console.log(`${key} : ${JsUser[key]}`);
+        
+    }
+    
+}

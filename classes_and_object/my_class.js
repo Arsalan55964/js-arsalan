@@ -15,6 +15,7 @@ class User {
 
 }
 
+
 const chai = new User("chai", "chai@gmail.com", "123")
 
 console.log(chai.encryptPassword());

@@ -1,11 +1,11 @@
-// switch (key) {
-//     case value:
+switch (key) {
+    case value:
         
-//         break;
+        break;
 
-//     default:
-//         break;
-// }
+    default:
+        break;
+}
 
 const month = "march"
 
@@ -25,4 +25,4 @@ switch (month) {
 
     default:
         break;
-}
+}             

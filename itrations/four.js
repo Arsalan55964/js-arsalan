@@ -21,17 +21,17 @@ for (const key in programing) {
 }
 
 
-// const map = new Map ()
+const map = new Map ()
 
-// map.set('pk', "Pakistan")
+map.set('pk', "Pakistan")
 
-// map.set('sa', "saudi arabia")
+map.set('sa', "saudi arabia")
 
-// map.set('ch', "china")
+map.set('ch', "china")
 
-// map.set('uk', "united kingdom")
+map.set('uk', "united kingdom")
 
-// for (const key in map) {
-//     console.log(key);
+for (const key in map) {
+    console.log(key);
     
-// }
+}

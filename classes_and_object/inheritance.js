@@ -27,5 +27,21 @@ chai.logMe()
 const masalaChai = new User("masalaChai")
 
 masalaChai.logMe()
+ 
+console.log(chai instanceof User);           
 
-console.log(chai instanceof User);
+const tinderUser = {
+    name: "arsalan",
+    id: 1,
+    isLogged: true,
+    lastActive: "today",
+    email: "dd2Email.com",
+    age: 18
+}   
+console.log(tinderUser.name);
+console.log(tinderUser.id);     
+
+
+console.log(tinderUser.isLogged);
+
+console.log(tinderUser.lastActive); 
